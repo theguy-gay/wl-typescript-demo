@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "rootDir": ".",
+      "outDir": "build",
+  
+      "target": "ESNext",
+      "lib": ["ESNext"],
+      
+      "moduleResolution": "nodenext",
+      "module": "NodeNext",
+  
+      "declaration": false,
+      "declarationMap": false,
+  
+      "strict": true,
+      "types": ["wl-typescript", "node"],
+    },
+    "tstl": {
+      "noHeader": true,
+      "luaTarget": "5.3",
+      "noImplicitSelf": true,
+      "tstlVerbose": true,
+      "luaLibImport": "inline",
+      "luaBundle": "bundle.lua",
+      "luaBundleEntry": "src/index.ts",
+    },
+  }
